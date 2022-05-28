@@ -1,4 +1,13 @@
-const getTheTitles = function() {
+const getTheTitles = function( userObjectArray) {
+
+    let titlesArray = [];
+
+    for (let objecti of userObjectArray) {
+        
+        titlesArray.push(objecti.title);
+    }
+    return titlesArray
+
 
 };
 
